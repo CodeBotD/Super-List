@@ -14,7 +14,9 @@ Built in pure Bash! Works on macOS, Linux, and WSL or Git Bash (For Windows) �
 | `sl open "List"`   | Opens a list for editing       |
 | `sl add "Task" "Jul 4"` | Adds a task with a due date |
 | `sl done 1`         | Marks task 1 as done ✅        |
-| `sl view`           | Views the current list 🐟      |
+| `sl view`           | Views the current list 🐟  
+| `sl remove 1`       | Removes task 1 
+| `sl tl remove "List"| Removes the Task List you specified
 
 ---
 
