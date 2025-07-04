@@ -1,0 +1,27 @@
+# Super List 📋🐟  
+Made by CodeBotD
+
+A cross-platform terminal to-do list app with an ASCII UI and a cute fish mascot 🐟 named **Lil’ Fishy**.  
+Built in pure Bash! Works on macOS, Linux, and WSL 💻🐧🍎
+
+---
+
+## 🧠 Commands
+
+| Command        | Description                     |
+|----------------|---------------------------------|
+| `sl new "List"`    | Creates a new list             |
+| `sl open "List"`   | Opens a list for editing       |
+| `sl add "Task" "Jul 4"` | Adds a task with a due date |
+| `sl done 1`         | Marks task 1 as done ✅        |
+| `sl view`           | Views the current list 🐟      |
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/CodeBotD/super-list.git
+cd super-list
+chmod +x sl
+sudo mv sl /usr/local/bin/sl  # So you can run it from anywhere!
