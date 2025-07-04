@@ -2,7 +2,7 @@
 Made by CodeBotD
 
 A cross-platform terminal to-do list app with an ASCII UI and a cute fish mascot 🐟 named **Lil’ Fishy**.  
-Built in pure Bash! Works on macOS, Linux, and WSL 💻🐧🍎
+Built in pure Bash! Works on macOS, Linux, and WSL or Git Bash (For Windows) 🪟🐧🍎
 
 ---
 
@@ -24,4 +24,5 @@ Built in pure Bash! Works on macOS, Linux, and WSL 💻🐧🍎
 git clone https://github.com/CodeBotD/super-list.git
 cd super-list
 chmod +x sl
-sudo mv sl /usr/local/bin/sl  # So you can run it from anywhere!
+
+Then just run "ls" boom! your done
